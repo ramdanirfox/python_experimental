@@ -12,37 +12,32 @@
 
 ## Getting started
 
-- Install python first Linux `dnf install python` Windows from Microsoft Store
-- Create python environment `pythom -m venv venv`
+- Install python first Linux `dnf install python3.11` Windows from Microsoft Store
+- RockyLinux : Download and install [openjpeg-devel](https://dl.rockylinux.org/pub/rocky/8/Devel/x86_64/os/Packages/o/openjpeg2-devel-2.4.0-5.el8.x86_64.rpm) - RockyLinux: `dnf install openjpeg2-devel-2.4.0-5.el8.x86_64.rpm`
+- RockyLinux: `dnf install python3-devel`
+- `pip install --upgrade pip` or `pip3 install --upgrade pip`
+- Create python environment `python -m venv venv` or `python3 -m venv rocky8_venv` 
 - Linux `source venv/bin/activate`. 
 - Windows `cd venv/Scripts` then `activate.bat`
-- pip install -r requirements.txt
+- `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
 ## Deploy
 
-- `pyinstaller main.py`
+- `pyinstaller --onefile main.py`
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/softegra-sinergi/safevision/vision-be/-/settings/integrations)
+- Use python and pip to work with and your favorite IDE
 
 ## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+- [ ] Invite team members and collaborators
 
 ## Test and Deploy
 
-Use the built-in continuous integration in GitLab.
+Use the built-in continuous integration, or :
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- `python main.py`
 
 ***
 

@@ -1,4 +1,5 @@
 venv/
+rocky8_venv/
 dist/
 build/
 __pycache__
