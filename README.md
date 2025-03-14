@@ -14,7 +14,7 @@
 
 - Install python first Linux `dnf install python3.11` Windows from Microsoft Store
 - RockyLinux : Download and install [openjpeg-devel](https://dl.rockylinux.org/pub/rocky/8/Devel/x86_64/os/Packages/o/openjpeg2-devel-2.4.0-5.el8.x86_64.rpm) - RockyLinux: `dnf install openjpeg2-devel-2.4.0-5.el8.x86_64.rpm`
-- RockyLinux: `dnf install python3-devel`
+- RockyLinux: `dnf install python3-dev*`
 - `pip install --upgrade pip` or `pip3 install --upgrade pip`
 - Create python environment `python -m venv venv` or `python3 -m venv rocky8_venv` 
 - Linux `source venv/bin/activate`. 
