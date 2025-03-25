@@ -3,3 +3,6 @@ rocky8_venv/
 dist/
 build/
 __pycache__
+models/yolov5s.pt
+models/yolov5su.pt
+models/yolov11s.pt

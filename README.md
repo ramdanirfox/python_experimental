@@ -24,6 +24,12 @@
 
 - `pyinstaller --onefile main.py`
 
+`WARNING`
+```
+Using --onefile will generate binary that perform self extracting program to OS temp folder
+This will eat lot of storage especially when Machine Learning packages included
+```
+
 ## Integrate with your tools
 
 - Use python and pip to work with and your favorite IDE
